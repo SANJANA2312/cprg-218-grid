@@ -31,3 +31,8 @@ section {
     color:white;
     grid-row: span 2;
  }
+
+ /*what if i want to move one of the boxes arounf, the timely budget one move by 1 column, give it a class*/
+section.column-start-3 {
+    grid-column-start: 3;
+}
