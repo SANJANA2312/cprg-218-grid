@@ -1,0 +1,32 @@
+*{
+    box-sizing:border-box;
+   /* background-color: blueviolet;*/
+}
+ body {
+    background-color: red;
+ }
+
+main{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:2rem;
+    width:90%;
+    margin: 0 auto; /*means in the center from both sides*/ /*TRouBLe, margin can have 4 values this acronym stands for top,bottom,left, right*/
+    border: 3px solid green;
+    /*background-color: aqua;*/
+    /*margin-left: 5%;
+    margin-right: 5%;  he said this is not the best way to do it here*/
+     /*as i want the things under main to be in grid, after just writing this grid , it wont show any change as it needs to know how many rows or columns, i usually use either one of them, either rows or columns, rest of it adjusts, fr stands for fraction, u can use any other measurements, but fr is for grid, px, em, rem or percentage can be used, for percentage is 33.3%, writing 3 times fr means i want 3 columns*/
+}
+/*for each row they will be equal height, you can make for each row also equal if you want to*/
+section{
+    border:1px solid blue;
+    background-color: antiquewhite;
+}
+/*to put space between elements, we can use margins, but when we are using grids we can use gap*/
+/*how can i make middle colum different width then the res, so we do the highlight the middle fr unit to 2*/
+/*fractions can be in decimals or anything its upto youuuu*/
+
+/*to highlight the work our arrow is on?????///?*/
+/*how that the extreme sides of the webpage is not touching the sides, margina and padding*/
+/*what if i remove one of the sections from html, they would automatically fill every cell and shift themselves*/

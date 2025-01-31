@@ -1,0 +1,33 @@
+*{
+    box-sizing:border-box;
+   /* background-color: blueviolet;*/
+}
+main{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+}
+section {
+    background-color: #95c623;
+    border:1px solid black;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+/*every h2 has a default margin, thats why all the elements has h2 tag has a little space above them*/
+ section h2 {
+    margin:0;
+ }
+ section.col-span-2{
+    background-color: #e55812;
+    color: white;
+    grid-column: span 2;
+ }
+
+ /*coolors - colour generator online*/
+ /*using inspect thing, you see numbers gridcolumn spn 2 works from there*/
+ /*to apply same css to different sections- give them same class name*/
+ section.row-span-2 {
+    background-color: #0e4749;
+    color:white;
+    grid-row: span 2;
+ }
